@@ -1,2 +1,2 @@
-# CPlusPlus-Application-Design.
+# CPlusPlus-Application-Design
 My C++ Application Design class projects and assignments.
