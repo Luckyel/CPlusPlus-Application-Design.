@@ -2,41 +2,53 @@
 #include <string>
 using namespace std;
 
-void addRecord() { cout << "-> Add Lift Request called\n"; }
-void viewRecords() { cout << "-> View Requests called\n"; }
-void searchRecords() { cout << "-> Search Services called\n"; }
-void deleteRecord() { cout << "-> Delete Request called\n"; }
+void addRecord() {
+    cout << "Request a Yard Lift." << endl;
+}
+
+void viewRecords() {
+    cout << "View My Lift Request." << endl;
+}
+
+void searchRecords() {
+    cout << "Search Services & Pricing." << endl;
+}
+
+void deleteRecords() {
+    cout << "Manage My Profilg." << endl;
+}
 
 int main() {
-    int choice;
-    bool running = true;
+    int choice = 0;
 
-    while (running) {
-        cout << "\n===== YARD-LIFT.COM MAIN MENU =====\n";
-        cout << "1. Request a Yard Lift\n";
-        cout << "2. View My Lift Requests\n";
-        cout << "3. Search Services & Pricing\n";
-        cout << "4. Manage My Profile\n";
-        cout << "5. Exit\n";
+    while (choice != 4) {
+        cout << "\n===== YARD-LIFT.COM MAIN MENU ====="<< endl;
+        cout << "1. Request a Yard Lift" << endl;
+        cout << "2. View My Lift Request" << endl;
+        cout << "3. Search Services & Pricing" << endl;
+        cout << "4. Manage My Profile" << endl;
+        cout << "5. Exit" << endl;
         cout << "Enter your choice (1-5): ";
         cin >> choice;
-
-        // Simple validation that JDoodle LIKES - no <limits> needed
-        if (choice < 1 || choice > 5) {
-            cout << "Invalid choice! Choose 1-5.\n";
-            continue;
-        }
+        
 
         switch (choice) {
-            case 1: addRecord(); break;
-            case 2: viewRecords(); break;
-            case 3: searchRecords(); break;
-            case 4: deleteRecord(); break;
-            case 5:
-                cout << "Thank you for using Yard-Lift.com! Goodbye!\n";
-                running = false;
+            case 1:
+                addRecord();
                 break;
+            case 2:
+                viewRecords();
+                break;
+            case 3:
+                deleteRecords();
+                break;
+            case 4:
+                cout << "Thank you for using Yard-Lift.com! Goodbye!" << endl;
+                break;
+            default:
+                cout << "Invalid choice. Try again." << endl;
         }
     }
+
     return 0;
-}
+}  
