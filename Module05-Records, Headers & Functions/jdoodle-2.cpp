@@ -18,6 +18,6 @@ void showMessage() {
 
 
 int main() {
-    showMessage();  // Fixed: correct function name and semicolon
+    showMessage();  
     return 0;
 }
