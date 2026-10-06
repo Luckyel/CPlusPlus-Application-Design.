@@ -4,20 +4,20 @@
 using namespace std;
 
 int main() {
-    // Main C++ variable types
+    
 
-    int age = 40;                    // whole number
-    double price = 20.99;            // decimal number
-    float areaSize = 90.5f;          // decimal number (added 'f' suffix for float)
-    char tool = 'M';                 // single character
-    bool registered = true;          // true or false (fixed spelling typo)
-    string name = "Alem";            // text
+    int age = 40;                    
+    double price = 20.99;            
+    float areaSize = 90.5f;          
+    char toolType = 'M','H';                 
+    bool registered = true;          
+    string name = "Alem";            
 
     cout << "Name: " << name << endl;
     cout << "Age: " << age << endl;
     cout << "Price: $" << price << endl;
     cout << "Area size: " << areaSize << endl;
-    cout << "Tool: " << tool << endl;
+    cout << "Tool Type: " << tool << endl;
     cout << "Registered: " << registered << endl;
 
   return 0;
