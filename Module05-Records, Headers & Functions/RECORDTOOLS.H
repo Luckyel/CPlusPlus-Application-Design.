@@ -12,5 +12,5 @@ void showMessage();
 using namespace std;
 
 void showMessage() {
-    cout << "Video Game High-Score!" << endl;
+    cout << "Yard Lift Service record system ready!" << endl;
 }
