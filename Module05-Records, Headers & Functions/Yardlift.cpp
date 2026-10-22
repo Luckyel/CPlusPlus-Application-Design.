@@ -1,8 +1,7 @@
-#include "YardLift.h"
 #include <iostream>
-
-using namespace std;
+#include "YardLift.h"
 
 void showMessage() {
-    cout << "Yard Lift Service record system ready!" << endl;
+    std::cout << "Hello from YardLift!" << std::endl;
 }
+
