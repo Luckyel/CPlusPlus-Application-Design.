@@ -1,9 +1,4 @@
-#include <iostream>
-#include "yardlift.h"
-
-void showMessage() {
-    std::cout << "Hello from YardLift!" << std::endl;
-}
+#include "YardLift.h"
 
 int main() {
     showMessage();
