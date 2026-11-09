@@ -2,3 +2,27 @@ Input validation for YardLift application
 validation for user types a new job in YardLift, in main.cpp  name hours and rate if the user preses enter for the name with no writing name it response "name cannot be empty please type a name
 and it ask again allow inpute name. for the hours if the user puts 0 or negative number or txt it says invalid try again and asks again. 
 for the Rate same it asks invalid and put again if the user type negative number or text. 
+
+
+Module-09  Using Smart helper  
+The Smat price helper I chose tor the application is suggesting price quality work hours it takes 
+takes what the work being used ( tools) or material that are healthy for the community, Deals or packages crediblity of the work  
+that compares from past work  job.txt  and from other sources.
+
+C++ Applicatiin ( YardLift)
+// Conceptual architecture:
+//
+// C++ Application
+//      |
+//      +--> User Request-- the user asks to add a new job and wants a prce 
+//      |
+//      +--> Prepare Data get past jobs informaton related to ask quation  like price hours it take  tate materials tools used package
+
+//      |
+//      +--> AI Service / Model---smart price helper lools at past jobs and suggests
+//      |
+//      +--> Receive Result --price time and lis of job 
+//      |
+//      +--> Validate Result-- chek the suggestion price if its that accceptable for application
+//      |
+//      +--> Display to User --- list to the other user and thiere choice 
