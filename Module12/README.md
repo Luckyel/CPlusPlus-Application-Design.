@@ -1,1 +1,2 @@
-
+The product research: product Tesla autopilot teasel uses I cameras around the car. the cameras see the size and distance of things on the road. then computer uses that picture to tee the car what to do the speed to go when to stop when to turn. C++ does this work fast, in real time.
+in my application the function show live job video from customer, areas sQft in this case its mock no real camera .it shows a small yard job there clients uses the service work per percentage done example complete  or 25% ,or 50 % done the sample is fro Doodle customer name Sara work show s the result then I added new Customer Joy  so each customer videos using C++ would help search and look fast.
